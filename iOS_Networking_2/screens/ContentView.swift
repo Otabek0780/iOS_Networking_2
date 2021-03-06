@@ -14,17 +14,28 @@ struct ContentView: View {
 
     var body: some View {
         NavigationView {
-            Text("Hello, world!")
-                .padding()
-                .navigationBarTitle("Post")
+            ZStack{
+                List(self.viewModel.posts, id:\.id){ post in
+                    VStack(alignment: .leading){
+                        Text(post.title!.uppercased())
+                            .fontWeight(.bold)
+                        Text(post.body!).padding(.top,5)
+                    }
+                }
+                if self.viewModel.isLoading {
+                    ProgressView()
+                }
+            }
+            .listStyle(PlainListStyle())
+            .navigationBarTitle("Post")
+            
         }.onAppear{
-            viewModel.apiEmployeeList()
+            self.viewModel.apiEmployeeList()
             //apiEmployeeSingle(id: 1)
             //let post = Post(title: "pdp", body: "academy")
             //apiEmployeeCreate(post: post)
             //apiEmployeeUpdate(post: post)
             //apiEmployeeDelete(post: post)
-            
         }
     }
 }
