@@ -21,6 +21,8 @@
 		5F10E97525F29C1600E80781 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F10E97425F29C1600E80781 /* Employee.swift */; };
 		5F10E98325F2AE1600E80781 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F10E98225F2AE1600E80781 /* Post.swift */; };
 		5F10E98825F3374A00E80781 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F10E98725F3374A00E80781 /* PostViewModel.swift */; };
+		5F10E9F125F3A74400E80781 /* Json_Response_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F10E9F025F3A74400E80781 /* Json_Response_1.swift */; };
+		5F10E9F625F3A75A00E80781 /* Json_Response_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F10E9F525F3A75A00E80781 /* Json_Response_2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		5F10E97425F29C1600E80781 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 		5F10E98225F2AE1600E80781 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		5F10E98725F3374A00E80781 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		5F10E9F025F3A74400E80781 /* Json_Response_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Json_Response_1.swift; sourceTree = "<group>"; };
+		5F10E9F525F3A75A00E80781 /* Json_Response_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Json_Response_2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +161,8 @@
 			children = (
 				5F10E97425F29C1600E80781 /* Employee.swift */,
 				5F10E98225F2AE1600E80781 /* Post.swift */,
+				5F10E9F025F3A74400E80781 /* Json_Response_1.swift */,
+				5F10E9F525F3A75A00E80781 /* Json_Response_2.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -328,7 +334,9 @@
 				5F10E97525F29C1600E80781 /* Employee.swift in Sources */,
 				5F10E92F25F296F300E80781 /* SceneDelegate.swift in Sources */,
 				5F10E98325F2AE1600E80781 /* Post.swift in Sources */,
+				5F10E9F625F3A75A00E80781 /* Json_Response_2.swift in Sources */,
 				5F10E93125F296F300E80781 /* ContentView.swift in Sources */,
+				5F10E9F125F3A74400E80781 /* Json_Response_1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
